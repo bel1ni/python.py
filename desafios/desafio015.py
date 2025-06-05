@@ -1,0 +1,6 @@
+print('{:=^50}'.format('ALUGUEL DE CARROS'))
+km=float(input('Qual foi a quatidade de KM percorridos? '))
+dias=int(input('Por quantos dias o carro foi alugado? '))
+p=(60*dias)+(0.15*km)
+print('O preço do aluguel é de R${:.2f}.'.format(p))
+print('{:=^50}'.format('='))

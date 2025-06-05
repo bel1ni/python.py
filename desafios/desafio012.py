@@ -1,0 +1,5 @@
+print('{:=^50}'.format('DESCONTO'))
+p=float(input('Digite o preço do produto: '))
+d=float(input('Digite a porcentagem de desconto: '))
+print('O produto de R${} com {}% De desconto custará R${:.2f}.'.format(p,d,(p-((d/100)*p))))
+print('{:=^50}'.format('='))

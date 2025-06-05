@@ -1,0 +1,5 @@
+print('{:=^50}'.format('AUMENTO SALARIAL'))
+s=float(input('Qual o seu salário? '))
+a=float(input('Qual a porcentagem de aumento que você vai receber? '))
+print('Seu novo salário é R${:.2f}.'.format((s+((a/100)*s))))
+print('{:=^50}'.format('='))

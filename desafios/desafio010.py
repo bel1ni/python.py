@@ -1,0 +1,6 @@
+print('{:=^50}'.format('CONVERSOR DE REAIS'))
+print('17/05/25: O Dólar custa R$5,66.')
+di=float(input('Quantos reais você tem? '))
+d=float(input('Quanto está custando o dólar hoje?  '))
+print('Você pode comprar US${:.2f}'.format(di/d))
+print('{:=^50}'.format('='))
